@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(to right bottom,#8E2DE2,#4A00E0);
 }
 
 .App-logo {
@@ -70,7 +71,7 @@
     flex-direction: column;
     justify-content: center;
     height: 90%;
-    background-color: #3498db;
+    background-color: #2962ff;
     width: 100%;
     position: absolute;
     right: -34%;
@@ -96,9 +97,9 @@
     }
 
     .text {
-      font-size: 21px;
+      font-size: 22px;
       font-weight: 500;
-      color: #fff;
+      color: #ECE9E6;
       margin-right: 3em;
       margin-left: 3em;
     }
@@ -110,13 +111,13 @@
   font-size: 21px;
   padding: 5px 20px;
   border: 0;
-  background-color: #3498db;
+  background-color: #7d5fff;
   color: #fff;
   border-radius: 3px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
   &:hover {
-    background-color: #2386c8;
+    background-color: #7158e2;
   }
   &:focus {
     outline: none;
